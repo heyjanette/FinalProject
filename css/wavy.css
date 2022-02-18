@@ -1,7 +1,7 @@
 *{
+    background-color: rgb(168, 115, 115);
     margin: 0;
     box-sizing: border-box;
-    background-color: rosybrown;
 }
 h1{
     text-align: center;
@@ -35,31 +35,17 @@ nav ul li a:hover{
     color: black;
     background-color: rgb(247, 189, 189);
 }
-main{
-    width: 100%;
-    text-align: center;
-    margin: 10px;
-    font-size: 20px;
-}
-.pic{
-    display: inline-block;
+section{
     padding: 15px;
+    width: 40%;
+    height: 450px;
 }
-footer{
-    margin: 45px;
-    padding: 45px;
-    text-align: left;
-    width: 100%;
-}
-.p2{
-    width: 75%;
-}
-article{
+aside{
+    float: right;
+    padding: 15px;
+    width: 40%;
+    height: 650px;
     text-align: center;
-    font-size: 20px;
-}
-h3{
-    font-size: 35px;
 }
 footer{
     padding: 25px;
